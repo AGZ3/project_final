@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+}
+
+html{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+}
+
+nav{
+    height: 57px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    color: white;
+    box-sizing: border-box;
+    padding: 20px 8px;
+    display: flex;
+    justify-content: right;
+}
+
+.logo{
+    position: fixed;
+    left: 20px;
+}
+
+
+/* TEXT */
+
+
+a{
+    color: black;
+    text-decoration: none;
+    margin-right: 25px;
+    font-family: Arial;
+}
+
+p{
+    font-family: Arial Black;
+}
+
+.title{
+    font-size: 75px;
+    color: white;
+    margin: 8px;
+    font-family: Arial Black;
+}
+
+.tagline_white{
+    font-size: 25px;
+    color: white;
+    margin: 8px;
+    font-family: Arial Black;
+}
+
+.tagline_black{
+    font-size: 50px;
+    color: black;
+    margin: 8px;
+    font-family: Arial Black;
+    text-align: center;
+}
+
+.tagline_release{
+    font-size: 50px;
+    color: white;
+    margin: 8px;
+    font-family: Arial Black;
+}
+
+.paragraph_black{
+    color: black;
+    margin: 8px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial;
+}
+
+.paragraph_white{
+    color: white;
+    margin: 8px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial Black;
+}
+
+.product_name{
+    font-size: 15px;
+    color: black;
+    margin: 8px;
+    font-family: Arial Black;
+    text-align: center;
+}
+
+/* CONTENT CONTAINERS */
+
+
+.banner{
+    width: 100%;
+    background-image: url("https://www.gamespot.com/a/uploads/original/1578/15789737/3642897-funko-1.jpg");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner2{
+    width: 100%;
+    background-color: slategray;
+    background-blend-mode: multiply;
+    background-image: url("https://images4.alphacoders.com/103/thumb-1920-1035777.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: cornflowerblue;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 250px;
+    width: 100%;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.wrapper{
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.image_text_container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.socials_container{
+    padding-top: 0px;
+    padding-bottom: 50px;
+    width: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* SHOP */
+
+.shop{
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.shop_left{
+    width: 25%;
+    height: 800px;
+    margin-left: 25%;
+}
+
+.shop_right{
+    width: 25%;
+    height: 800px;
+    margin-right: 25%;
+}
+
+.shop_image{
+    height: 300px;
+}
+
+/* CONTACT FORM */
+
+form { max-width:500px; margin:50px auto; }
+
+.feedback-input {
+    color:black;
+    font-family: Arial, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid black;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+}
+
+.feedback-input:focus { border:2px solid slategray; }
+
+textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+[type="submit"] {
+    font-family: Arial Black, Arial, Arial Black, sans-serif;
+    width: 100%;
+    background-color: black;
+    border-radius:5px;
+    border:0;
+    color:white;
+    font-size:25px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+}
+[type="submit"]:hover { background-color: slategray; }
+
+/* IMAGES */
+
+.large_image{
+    height: 400px;
+}
+
+.socials{
+    height: 50px;
+}
+
+/* FOOTER */
+
+.footer{
+    height: 60px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    color: white;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
